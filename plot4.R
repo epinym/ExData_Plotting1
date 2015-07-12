@@ -18,7 +18,7 @@ hpc <- transform(hpc, DateCT = strptime(paste(hpc$Date, hpc$Time), format = "%d/
 par(mfrow = c(2, 2))
 
 # graph 1 is from quiz 1 plot 2
-with(hpc, plot(DateCT, Global_active_power, type="l", main = "", xlab = "", ylab = "Global Active Power (kilowatts)"))
+with(hpc, plot(DateCT, Global_active_power, type="l", main = "", xlab = "", ylab = "Global Active Power"))
 
 # graph 2 is new
 with(hpc, plot(DateCT, Voltage, type="l", main = "", xlab = "datetime", ylab = "Voltage"))
