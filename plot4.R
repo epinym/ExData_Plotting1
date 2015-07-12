@@ -21,7 +21,7 @@ par(mfrow = c(2, 2))
 with(hpc, plot(DateCT, Global_active_power, type="l", main = "", xlab = "", ylab = "Global Active Power (kilowatts)"))
 
 # graph 2 is new
-with(hpc, plot(DateCT, Voltage, type="l", main = "", xlab = "datetime", ylab = "Global Active Power (kilowatts)"))
+with(hpc, plot(DateCT, Voltage, type="l", main = "", xlab = "datetime", ylab = "Voltage"))
 
 # graph 3 is from quiz 1 plot 3
 with(hpc, plot(DateCT, Sub_metering_1, type="n", main = "", ylab = "Entergy sub metering", xlab = ""))
